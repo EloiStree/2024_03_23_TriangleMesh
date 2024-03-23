@@ -23,6 +23,7 @@ public class TriangleRenderer : MonoBehaviour
         }
     }
 
+    [ContextMenu("Refresh")]
     void UpdateTriangle()
     {
         Vector3[] vertices = new Vector3[]
